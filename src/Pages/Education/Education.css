@@ -1,0 +1,69 @@
+.Education{
+    background-color: #101010;
+    background-image: url(../../assets//images/scrips.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.Education h1{
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 70px 0px;
+}
+.skils{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    border-bottom: 2px solid rgb(104, 102, 102);
+    padding: 2% 7%;
+    margin: 0px 100px;
+}
+.skils p{
+    font-weight: 700;
+    color: rgb(196, 191, 191)
+}
+.skils span{
+    color: #C01569;
+    text-transform: uppercase;
+}
+.skils img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    max-width: 100%;
+    border: 5px solid #C01569;
+}
+.skils h5{
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width:764px){
+    .skils{
+        flex-direction: column;
+        line-height: 2;
+        padding: 25px 0px;
+        margin: 0px 40px;
+    }
+    .skils img{
+        margin: 10% 0;
+    }
+    .skils p ,
+    .skils h5 ,
+    .skils span{
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+}
+@media only screen and (max-width:1250px){
+    .Education{
+        height: fit-content;
+    }
+
+}

@@ -1,0 +1,92 @@
+.header{
+    background-image: url(../assets/images/footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.hero{
+    display: flex;
+    padding: 2% 7%;
+    justify-content: space-around;
+    align-items: center;
+}
+.text-hero h1{
+    color: #fff;
+    font-size: 4.5rem;
+    text-transform: uppercase;
+}
+.text-hero h3{
+    color: #fff;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+}
+.text-hero h3 span{
+    color: #ec167f;
+}
+.text-hero button{
+    width: 140px;
+    height: 40px;
+    background-color: #ec167f;
+    border: #ec167f 1px solid;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.text-hero button:hover{
+    background: transparent;
+}
+.text-hero button a{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+@media screen and (max-width:1440px){
+    .text-hero h1{
+        font-size: 2.5rem;
+    }
+    .text-hero h3{
+        font-size: 2rem;
+    }
+    .img-hero img{
+        width: 500px;
+        max-width: 100%
+    }
+}
+@media screen and (max-width:1200px){
+    .hero{
+        padding: 7% 7%;
+    }
+    .text-hero h1{
+        font-size: 2.5rem;
+    }
+    .img-hero img{
+        width: 400px;
+        max-width: 100%
+    }
+}
+@media screen and (max-width:1034px){
+    .hero{
+        padding: 15% 7%;
+    }
+    .text-hero h1{
+        font-size: 1.5rem;
+    }
+    .text-hero h3{
+        font-size: 1rem;
+    }
+    .img-hero img{
+        width: 300px;
+    }
+}
+@media screen and (max-width:730px){
+    .hero{
+        flex-direction: column;
+    }
+    .text-hero{
+        margin-bottom: 5rem;
+        width: 100%;
+        text-align: center;
+        line-height: 2;
+    }
+}

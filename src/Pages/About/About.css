@@ -1,0 +1,113 @@
+.About{
+    background-image: url(../../assets//images/scrips.png);
+    background-color: #101010;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Biggest{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5% 7%;
+    width: 100%;
+    height: auto;
+}
+.Biggest-text{
+    color: #fff;
+}
+.Biggest-text h1{
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+.Biggest-text p{
+    line-height: 2.5;
+    text-transform: capitalize;
+    margin-top: 20px;
+}
+.Biggest-text button{
+    background-color: #C01569;
+    border: #C01569 1px solid;
+    width: 140px;
+    height: 40px;
+    border-radius: 5px;
+    transition: .2s ease-in-out;
+    margin-top: 20px;
+}
+.Biggest-text button:hover{
+    background: transparent;
+}
+.Biggest-text button a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.Biggest-img img{
+    width: 700px;
+    max-width: 100%;
+}
+.Biggest-img{
+    border: 4px solid #fff;
+    max-width: 100%;
+    border-radius: 10px;
+    transition: .2s ease-in-out;
+}
+.Biggest-img:hover{
+    border: 4px solid #C01569;
+    scale: 90%;
+}
+@media only screen and (max-width:1640px){
+    .Biggest-text h1{
+        font-size: 2rem;
+    }
+    .Biggest{
+        padding: 5% 2%;
+    }
+}
+@media only screen and (max-width:1500px){
+    .Biggest-text h1{
+        font-size: 2rem;
+    }
+    .Biggest{
+        padding: 5% 2%;
+    }
+    .Biggest-img img{
+        width: 600px;
+    }
+}
+@media only screen and (max-width:1325px){
+    .Biggest-text p{
+        line-height: 2.5;
+        width: 100%;
+    }
+    .Biggest{
+        padding: 5% 2%;
+    }
+}
+@media only screen and (max-width:1070px){
+    .Biggest-text p{
+        width: 90%;
+    }
+}
+@media only screen and (max-width:776px){
+    .Biggest{
+        flex-direction: column;
+    }
+    .Biggest-text{
+        margin-bottom: 5%;
+        width: 100%;
+        text-align: center;
+    }
+    .Biggest-img img{
+        width: 350px;
+    }
+    .About{
+        height: fit-content;
+    }
+}

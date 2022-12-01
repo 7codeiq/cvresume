@@ -1,0 +1,75 @@
+.Contact{
+    background-image: url(../../assets//images/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.FaSlackHash ,
+ .FaEnvira ,
+ .FaComments ,
+ .FaGlobe {
+    color: #C01569;
+    font-size: 80px;
+    margin-bottom: 30px ;
+}
+.contact-us h1{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 50px;
+    letter-spacing: 1px;
+}
+.flex-contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #101010 ;
+    padding: 70px;
+    margin: 70px;
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+.col-contact h3{
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 2.5
+}
+.social{
+    background-color: #C01569;
+    border: 1px solid #C01569;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-left: 10px;
+    transition: .3s ease-in-out;
+}
+.social:hover{
+    background: transparent;
+}
+
+@media only screen and (max-width:1260px){
+    .col-contact h3{
+        font-size: 18px;
+    }
+    .flex-contact {
+        justify-content: space-between;
+        padding: 100px 50px;
+        margin: 10px;
+    }
+}
+@media only screen and (max-width:1000px){
+    .Contact{
+        height: fit-content;
+    }
+    .contact-us h1{
+        margin: 10% 0%;
+    }
+}
