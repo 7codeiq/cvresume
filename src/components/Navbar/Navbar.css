@@ -15,7 +15,7 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	height: 80px;
-	padding: 0 2rem;
+	padding: 2% 7%;
 	color: var(--textColor);
 }
 header div a img{
@@ -42,7 +42,7 @@ header .nav-btn {
 	border: none;
 	outline: none;
 	color: var(--textColor);
-	visibility: hidden;
+	display: none;
 	opacity: 0;
 	font-size: 1.8rem;
 }
@@ -55,7 +55,7 @@ nav {
 
 @media only screen and (max-width: 1024px) {
 	header .nav-btn {
-		visibility: visible;
+		display: block;
 		opacity: 1;
 	}
 

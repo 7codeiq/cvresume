@@ -9,6 +9,7 @@ import prot5 from '../../assets/images/prot5.PNG'
 import prot6 from '../../assets/images/prot6.PNG'
 import prot7 from '../../assets/images/prot7.PNG'
 import prot8 from '../../assets/images/prot8.PNG'
+
 function Portfolio() {
     return (
         <>
@@ -17,14 +18,14 @@ function Portfolio() {
 
                 <h1>The Portfolio</h1>
                 <div className="Portfolio-Photo">
-                    <a href="https://7codeiq.github.io/zeno/" target="_blank"><img src={prot1} /></a>
+                    <a href="https://7codeiq.github.io/Shoppng-React/" target="_blank"><img src={prot5} /></a>
                     <a href="https://7codeiq.github.io/GrandRestaurant/" target="_blank"><img src={prot2} /></a>
                     <a href="https://7codeiq.github.io/Templete-v1/" target="_blank"><img src={prot3} /></a>
                     <a href="https://7codeiq.github.io/Jewelry/" target="_blank"><img src={prot4} /></a>
                 </div>
 
                 <div className="Portfolio-Photo">
-                    <a href="https://7codeiq.github.io/Sarh/" target="_blank"><img src={prot5} /></a>
+                    <a href="https://7codeiq.github.io/zeno/" target="_blank"><img src={prot1} /></a>
                     <a href="https://7codeiq.github.io/Naseel/" target="_blank"><img src={prot6} /></a>
                     <a href="https://7codeiq.github.io/test/" target="_blank"><img src={prot7} /></a>
                     <a href="https://7codeiq.github.io/fashion/" target="_blank"><img src={prot8} /></a>

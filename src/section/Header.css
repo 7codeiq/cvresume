@@ -10,6 +10,11 @@
     padding: 2% 7%;
     justify-content: space-around;
     align-items: center;
+    margin-top: 5rem;
+}
+.img-hero img{
+    width: 500px;
+    max-width: 100%;
 }
 .text-hero h1{
     color: #fff;
