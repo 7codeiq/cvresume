@@ -2,7 +2,7 @@
     background-image: url(../../assets//images/scrips.png);
     background-color: #101010;
     width: 100%;
-    height: fit-content;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
