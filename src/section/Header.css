@@ -3,7 +3,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: fit-content;
+    height: 100vh;
 }
 .hero{
     display: flex;

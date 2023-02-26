@@ -20,7 +20,7 @@ function Portfolio() {
                 <div className="Portfolio-Photo">
                     <a href="https://7codeiq.github.io/Shoppng-React/" target="_blank"><img src={prot5} /></a>
                     <a href="https://7codeiq.github.io/GrandRestaurant/" target="_blank"><img src={prot2} /></a>
-                    <a href="https://7codeiq.github.io/Templete-v1/" target="_blank"><img src={prot3} /></a>
+                    <a href="https://7codeiq.github.io/Restaurant/" target="_blank"><img src={prot3} /></a>
                     <a href="https://7codeiq.github.io/Jewelry/" target="_blank"><img src={prot4} /></a>
                 </div>
 
