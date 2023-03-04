@@ -15,30 +15,30 @@ const Contact = () => {
             <Navbar/>
 
             <div className='contact-us'>
-                <h1>Contact Us</h1>
+                <h1>أتصــل بــي</h1>
             </div>
 
             <div className='flex-contact'>
                 <div className='col-contact'>
                     <FaEnvira className='FaEnvira'/>
-                    <h3>Address : Baghdad , Iraq</h3>
-                    <h3>Age : 24 Years</h3>
-                    <h3>Birth : 1998/11/29</h3>
+                    <h3>العنـوان : بغـداد , العـراق</h3>
+                    <h3>العـمر : 25 سنـة</h3>
+                    <h3>المواليـد : 1998/11/29</h3>
                 </div>
                 <div className='col-contact'>
                     <FaComments className='FaComments'/>
-                    <h3>Phone : 07733013115</h3>
-                    <h3>Phone : 07509151360</h3>
-                    <h3>Email : mortada.teach@outlook.com</h3>
+                    <h3>رقـم الهاتـف : 07733013115</h3>
+                    <h3>رقـم الهاتـف : 07509151360</h3>
+                    <h3>الايميــل : mortada.teach@outlook.com</h3>
 
                 </div>
                 <div className='col-contact'>
                     <FaGlobe className='FaGlobe'/>
-                    <h3>FaceBook </h3>
+                    <h3>الفيسبـوك </h3>
                     <a href="https://www.facebook.com/mortadha.dev" target='_blank'> <FaFacebookF className='social'/></a>
-                    <h3>Linkedin </h3>
+                    <h3>لينكـد ان </h3>
                     <a href="https://www.linkedin.com/in/mortada-al-jazaery-91970922b/" target='_blank'> <FaLinkedinIn className='social'/></a>
-                    <h3>Twitter </h3>
+                    <h3>تويتـر </h3>
                     <a href="https://twitter.com/Mrr_hm" target='_blank'> <FaTwitter className='social'/></a>
                 </div>
             </div>

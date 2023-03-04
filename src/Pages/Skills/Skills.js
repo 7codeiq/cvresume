@@ -5,44 +5,42 @@ const Skills = () => {
     <>
       <div className="Skills">
         <Navbar />
-        <h1>My Skills</h1>
+        <h1>الخبـــرات</h1>
 
         <div className="box-skills">
           <div className="row-skils">
             <div className="html">
               <h4>Html , css , js</h4>
-              <p>I can design a complete website using html css java script</p>
+              <p>يمكنني تصميم موقع ويب كامل باستخدام html , css , js</p>
             </div>
             <div className="css">
               <h4>React Js</h4>
               <p>
-                Rely entirely on react-js in your design, which gives you speed
-                and flexibility
+              اعتمد كليا على رياكت Js في تصاميمي ، مما يمنحني السرعة والمرونة
               </p>
             </div>
           </div>
 
           <div className="row-skils">
             <div className="html">
-              <h4>React Native</h4>
-              <p>I develop a complete mobile application using React Native</p>
+              <h4>Dart && Flutter</h4>
+              <p>أقوم بتطوير تطبيق جوال كامل باستخدام Dart And Flutter</p>
             </div>
             <div className="css">
               <h4>Git , Git Hub</h4>
-              <p>I can upload the site to github hosting using git commands</p>
+              <p>يمكنني تحميل الموقع إلى استضافة Github باستخدام أوامر Git</p>
             </div>
           </div>
 
           <div className="row-skils">
             <div className="html">
               <h4>php , mysql</h4>
-              <p>I can work with mysql database using php</p>
+              <p>يمكنني التعامل مع قاعدة بيانات Mysql باستخدام Php</p>
             </div>
             <div className="css">
               <h4>Security</h4>
               <p>
-                Checking the site for vulnerabilities and patching them, which
-                increases the protection of site data
+              فحص الموقع بحثا عن الثغرات وترقيعها مما يزيد من حماية بيانات الموقع
               </p>
             </div>
           </div>

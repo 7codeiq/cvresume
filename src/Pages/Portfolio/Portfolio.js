@@ -16,7 +16,7 @@ function Portfolio() {
       <div className="Portfolio">
         <Navbar />
 
-        <h1>The Portfolio</h1>
+        <h1>أعمـالــي</h1>
         <div className="Portfolio-Photo">
           <a href="https://7codeiq.github.io/Restaurant/" target="_blank">
             <img src={prot3} />

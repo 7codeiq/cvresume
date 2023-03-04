@@ -21,12 +21,12 @@ const Navbar = () => {
                 </div>
                 <nav ref={navRef}>
                 
-                        <li><Link to='/'>Home</Link></li>
-                        <li><Link to='/About'>about</Link></li>
-                        <li><Link to='/Portfolio'>portfolio</Link></li>
-                        <li><Link to='/Education'>education</Link></li>
-                        <li><Link to='/Skills'>Skills</Link></li>
-                        <li><Link to='/Contact'>Contact Us</Link></li>
+                        <li><Link to='/'>الرئيسية</Link></li>
+                        <li><Link to='/About'>نبذة عني</Link></li>
+                        <li><Link to='/Portfolio'>اعمالي</Link></li>
+                        <li><Link to='/Education'>الدراسة</Link></li>
+                        <li><Link to='/Skills'>الخبرات</Link></li>
+                        <li><Link to='/Contact'>التواصل معي</Link></li>
 
                     <button
                         className="nav-btn nav-close-btn"
