@@ -17,7 +17,7 @@ const Navbar = () => {
         <>
             <header>
                 <div>
-                    <a href="/cvresume/"><img src={Logo} /></a>
+                    <a href="/"><img src={Logo} /></a>
                 </div>
                 <nav ref={navRef}>
                 
