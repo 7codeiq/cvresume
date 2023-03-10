@@ -23,8 +23,8 @@ const Skills = () => {
 
           <div className="row-skils">
             <div className="html">
-              <h4>Dart && Flutter</h4>
-              <p>أقوم بتطوير تطبيق جوال كامل باستخدام Dart And Flutter</p>
+              <h4>ReactNative</h4>
+              <p>أقوم بتطوير تطبيق جوال كامل باستخدام React Native</p>
             </div>
             <div className="css">
               <h4>Git , Git Hub</h4>
