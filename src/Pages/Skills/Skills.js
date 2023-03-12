@@ -10,8 +10,8 @@ const Skills = () => {
         <div className="box-skills">
           <div className="row-skils">
             <div className="html">
-              <h4>Html , css , js , bootstrap</h4>
-              <p>يمكنني تصميم موقع ويب كامل باستخدام html , css , js , bootstrap</p>
+              <h4>Html , css , js </h4>
+              <p>يمكنني تصميم موقع ويب كامل باستخدام html , css , js </p>
             </div>
             <div className="css">
               <h4>React Js</h4>
@@ -40,7 +40,7 @@ const Skills = () => {
             <div className="css">
               <h4>Wordpress</h4>
               <p>
-              استطيع بناء موقع تجاري الكتروني او مدونة او موقع شخصي باستخدام Wordpress 
+              استطيع بناء موقع كامل  باستخدام Wordpress 
               </p>
             </div>
           </div>
