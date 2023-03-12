@@ -1,40 +1,39 @@
-.Portfolio{
-    background-image: url(../../assets/images/bg.jpg);
-    width: 100%;
-    height: 100vh;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.Portfolio {
+  background-image: url(../../assets/images/bg.jpg);
+  width: 100%;
+  height: fit-content;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.Portfolio h1{
-    text-align: center;
-    color: #fff;
-    font-weight: 700;
-    text-transform: uppercase;
+.Portfolio h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
 }
-.Portfolio-Photo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 5%;
-    flex-wrap: wrap;
-    gap: 4px;
+.Portfolio-Photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5%;
+  flex-wrap: wrap;
+  gap: 4px;
 }
-.Portfolio-Photo img{
-    width: 350px;
-    max-width: 100%;
-    margin: 0px 20px;
-    border-radius: 10px;
-    cursor: pointer; 
+.Portfolio-Photo img {
+  width: 350px;
+  max-width: 100%;
+  margin: 0px 20px;
+  border-radius: 10px;
+  cursor: pointer;
 }
-@media only screen and (max-width:1590px){
-    .Portfolio{
-
-        height: fit-content;
-    }
+@media only screen and (max-width: 1590px) {
+  .Portfolio {
+    height: fit-content;
+  }
 }
-@media only screen and (max-width:744px){
-    .Portfolio h1{
-        margin: 5% 0;
-    }
+@media only screen and (max-width: 744px) {
+  .Portfolio h1 {
+    margin: 5% 0;
+  }
 }

@@ -10,8 +10,8 @@ const Skills = () => {
         <div className="box-skills">
           <div className="row-skils">
             <div className="html">
-              <h4>Html , css , js</h4>
-              <p>يمكنني تصميم موقع ويب كامل باستخدام html , css , js</p>
+              <h4>Html , css , js , bootstrap</h4>
+              <p>يمكنني تصميم موقع ويب كامل باستخدام html , css , js , bootstrap</p>
             </div>
             <div className="css">
               <h4>React Js</h4>
@@ -23,7 +23,7 @@ const Skills = () => {
 
           <div className="row-skils">
             <div className="html">
-              <h4>ReactNative</h4>
+              <h4>React Native</h4>
               <p>أقوم بتطوير تطبيق جوال كامل باستخدام React Native</p>
             </div>
             <div className="css">
@@ -34,13 +34,13 @@ const Skills = () => {
 
           <div className="row-skils">
             <div className="html">
-              <h4>php , mysql</h4>
-              <p>يمكنني التعامل مع قاعدة بيانات Mysql باستخدام Php</p>
+              <h4>MERN , Node JS</h4>
+              <p>استطيع التعامل مع قاعدة بيانات MongoDB باستخدام Express.js</p>
             </div>
             <div className="css">
-              <h4>Security</h4>
+              <h4>Wordpress</h4>
               <p>
-              فحص الموقع بحثا عن الثغرات وترقيعها مما يزيد من حماية بيانات الموقع
+              استطيع بناء موقع تجاري الكتروني او مدونة او موقع شخصي باستخدام Wordpress 
               </p>
             </div>
           </div>
