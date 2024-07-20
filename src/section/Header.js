@@ -11,9 +11,9 @@ const Header = () => {
                 <div className='hero'>
                 
                     <div className='text-hero'>
-                        <h1>مرتـضـــى الجزائــــري </h1>
-                        <h3>مصمــم مواقـع <span>الويــب</span></h3>
-                        <button><a href='https://c.top4top.io/f_1oqYu2KfyoUmMKffbSmHfQ/1668335053/25026s2vg1.pdf'>حمـل السيـرة الذاتيـة</a></button>
+                        <h1>مرتـضـــى محمـــد </h1>
+                        <h3>Full-Stack <span>Developer</span></h3>
+                        <button><a href='https://c.top4top.io/f_1oqYu2KfyoUmMKffbSmHfQ/1668335053/25026s2vg1.pdf'>Download CV</a></button>
                     </div>
 
                     <div className='img-hero'>
